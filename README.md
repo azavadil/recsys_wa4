@@ -18,8 +18,8 @@ The script outline is:
 * return the sum of the accumulator    
 
 Here's an example of what happens. 2 columns are extracted from a 
-hypothetical 2D array, we aggregrate the columns in an accumulator column, 
-and take the sum of the accumlulator column. 
+hypothetical 2D array, we aggregate the columns in an accumulator column, 
+and take the sum of the accumulator column. 
 
 col1 = [4, nan, 2, 2, nan, nan]  
 col2 = [5, nan, nan, 4, nan, 3]   
