@@ -18,7 +18,7 @@ args = argparser.parse_args()
   
 print "Input file: " + args.infile
 print "Current user id: " + args.curr_uid
-
+print "---"
 curr_uid = args.curr_uid
 # set up an empty list to store our order information
 movie_ratings = []
@@ -68,8 +68,8 @@ for index, uid in enumerate(user_ids):
 		other_uid = arr[:, uid2col[uid]]
 		index_other = other_uid > 0						
 		index_union = index_this * index_other
-		sum_arr = np.add(this_uid[index_union], other_uid[index_union])
-		sums.append( (np.sum(sum_arr), index))
+		acc = np.add(this_uid[index_union], other_uid[index_union])
+		sums.append( (np.sum(acc), index))
 		
 for row in sums: 
 	print("Index: {0}, Sum: {1:.2f}".format(row[1],row[0]))
