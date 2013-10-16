@@ -26,12 +26,12 @@ col1 ... col2 ... acc= .. sum of acc
 				  col1&
 				  col2 
 
-|4   |  |5  | .. |9  | .. 15
-|nan |  |nan|    |nan|
-|2	 |  |nan|    |nan|
-|2   |  |4  |    |6  |
-|nan |  |nan|    |nan|
-|nan |  |3  |    |nan|
+|4   |  |5  | .. |9  | .. 15  
+|nan |  |nan|    |nan|  
+|2	 |  |nan|    |nan|  
+|2   |  |4  |    |6  |  
+|nan |  |nan|    |nan|  
+|nan |  |3  |    |nan|  
 
 The purpose of the script is to demonstrate some basic numpy operations of 
 reading in data, creating a numpy arr, and creating an index to filter elements.
