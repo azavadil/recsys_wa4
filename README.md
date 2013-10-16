@@ -11,11 +11,11 @@ The script does not do the homework.
 Rather, the script performs a useless operation to demonstrate some basic functionality.
 
 The script outline is: 
-*read the data into a 2D numpy array  
-*extract certain columns from the array  
-*create an index to filter out empty entries of the column (i.e. NaN)   
-*create an accumulator column that sums the ratings if both users rated the movie  
-*return the sum of the accumulator    
+* read the data into a 2D numpy array  
+* extract certain columns from the array  
+* create an index to filter out empty entries of the column (i.e. NaN)   
+* create an accumulator column that sums the ratings if both users rated the movie  
+* return the sum of the accumulator    
 
 Here's an example of what happens. 2 columns are extracted from a 
 hypothetical 2D array, we aggregrate the columns in an accumulator column, 
