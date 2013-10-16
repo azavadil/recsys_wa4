@@ -67,8 +67,8 @@ for index, uid in enumerate(user_ids):
 			
 		other_uid = arr[:, uid2col[uid]]
 		index_other = other_uid > 0						
-		index_union = index_this * index_other
-		acc = np.add(this_uid[index_union], other_uid[index_union])
+		index_intrsct = index_this * index_other
+		acc = np.add(this_uid[index_intrsct], other_uid[index_intrsct])
 		sums.append( (np.sum(acc), index))
 		
 for row in sums: 
